@@ -1,0 +1,97 @@
+#header{
+    padding: 10px 2px;
+    color: black;
+    background-color: hsl(0, 0%, 100%,0.8);
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: url("https://source.unsplash.com/612x612/?healthy");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.box{
+  width: 600px;
+  padding:100px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background:rgba(175, 219, 55, 0.7);
+  text-align:center;
+    border-radius: 5px;
+}
+
+.box h1
+{
+    color: rgba(4, 7, 6, 0.9);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.box input[type="text"],.box input[type="password"]
+{
+border: 0;
+background: rgb(245, 244, 241,0.9);
+display: block;
+margin: 20px auto;
+text-align: center;
+border:3px solid #fdd703;
+padding:14px 10px;
+width:300px;
+outline: none;
+color: white;
+border-radius: 8px;
+transition:0.25px;
+
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+
+width:300px;
+border-color:black;
+
+}
+.box input[type="submit"]{
+
+    width: 200px;
+    border: 0;
+background: blue;
+display: block;
+margin: 20px auto;
+text-align: center;
+border:3px solid #ffc400ec;
+padding:14px 35px;
+outline: none;
+color: white;
+border-radius: 8px;
+transition:0.25px;
+cursor:pointer;
+    
+}
+.box input[type="submit"]:hover{
+    background: #ffc400ec;
+}
+
+#button{
+    background: white;
+    font-weight: 100;
+    color: blue;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s,border-color 0.25s,transform 0.25s;
+}
+
+#button:hover{
+    border-color:black;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em #0f0f0d;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}

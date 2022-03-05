@@ -1,0 +1,10 @@
+body{
+    background: url("https://source.unsplash.com/1080x1080/?calorie");
+}
+#header{
+    text-decoration: none;
+    padding: 15px 5px;
+    color: black;
+    background-color: hsl(0, 0%, 100%,0.8);
+    font-size: 20px;
+}
